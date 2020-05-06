@@ -51,6 +51,7 @@ implementation
 
 {$R *.dfm}
 
+// создание формы
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   Application.OnIdle:=ApplicationIdle;
