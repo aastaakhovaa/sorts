@@ -60,6 +60,7 @@ begin
   ResStrngrd.Cells[1, 0]:='X';
 end;
 
+// application idle
 procedure  TForm1.ApplicationIdle(Sender: TObject; var done: Boolean);
 var isNotEmpty, ItemsNotEmpty: Boolean;
 begin
