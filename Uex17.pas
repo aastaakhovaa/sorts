@@ -70,12 +70,14 @@ begin
   SortBtn.Enabled:=ItemsNotEmpty;
 end;
 
+// коммент
 procedure TForm1.AEdtKeyPress(Sender: TObject; var Key: Char);
 begin
   if not (Key in['0'..'9']) and (Ord(Key)<>8) then
      Key:=#0;
 end;
 
+// еще коммент
 procedure TForm1.XEdtKeyPress(Sender: TObject; var Key: Char);
 begin
   if not (Key in['0'..'9']) and (Ord(Key)<>8) then
